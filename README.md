@@ -1,11 +1,4 @@
-# whiteglass
-
-[![Gem Version](https://badge.fury.io/rb/jekyll-whiteglass.svg)](https://badge.fury.io/rb/jekyll-whiteglass)
-[![Build Status](https://travis-ci.org/yous/whiteglass.svg?branch=master)](https://travis-ci.org/yous/whiteglass)
-
-Minimal, responsive Jekyll theme for hackers.
-
-![whiteglass theme](screenshot.png)
+# 이것저것
 
 ## Terraform
 
@@ -24,6 +17,22 @@ ingress : port 22
 ### 참고
 - https://www.44bits.io/ko/post/terraform_introduction_infrastrucute_as_code
 - https://blog.naver.com/alice_k106/221489260596
+
+## docker
+
+```
+$ docker ps [-a]
+$ docker rm -v $(docker ps -a -q -f status=exited)
+$ docker images
+$ docker rmi [OPTIONS] IMAGE [IMAGE...]
+$ docker logs --tail 10 -f ${CONTAINER_ID}
+$ docker exec [OPTIONS] CONTAINER COMMAND [ARG...]
+$ docker build -t app .
+
+```
+
+### 참고
+- https://subicura.com/2017/01/19/docker-guide-for-beginners-1.html
 
 
 
